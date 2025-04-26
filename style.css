@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.fv-wrap {
+    position: relative;
+    width: 100%;
+}
+
+.fv-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.fv-wrap .btn {
+    position: absolute;
+    bottom: 30px; /* 好きな位置に調整してOK！ */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* ボタンの大きさ調整。好みで変えてね！ */
+    max-width: 600px; /* 大きすぎ防止用。調整してOK！ */
+  }
+
+  .closing-wrap {
+    position: relative;
+    width: 100%;
+  }
+
+  .closing-wrap img {
+    width: 100%;
+    height: auto;
+  }
+
+  .closing-wrap .btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
+  }
